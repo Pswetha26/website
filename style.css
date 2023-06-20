@@ -1,0 +1,147 @@
+*{
+margin:0;
+padding:0;
+list-style:none;
+text-decoration:none;
+font-family:verdana;
+box-sizing:border-box;
+}
+body{
+	background:#fefefe;
+	
+}
+header{
+	width:100%;
+	height:100px;
+	background:lightblue;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding:0 100px;
+}
+.logo{
+	font-size:20px;
+	font-weight:bold;
+	color:black;
+	
+}img{
+	position:absolute;
+	top:15px;
+	left:5px;
+	
+}
+ul li ul.dropdown li{
+display:block;
+font-size:10px;
+color:black;
+}
+ul li ul.dropdown{
+
+background:white;
+color:black;
+position:absolute;
+
+font-size:15px;
+padding:0;
+display:none;
+}
+ul li a:hover{
+background:white;
+color:black;
+}
+ul li:hover ul.dropdown{
+display:block;
+color:black;
+background:white;
+}
+.dropdown-menu li{
+   position:relative;
+   top:50px;
+   }   
+.container
+   {
+   width:100%;
+   }
+.social
+   {
+   text-align:center;
+   background-color:blue;
+   position:absolute;
+   padding:20px;
+   bottom:30px;
+   width:100%;
+   height:90px;
+   color:white;   
+   }
+  .social a{
+   font-size:34px;
+   background-color:blue;
+   color:inherit;
+   border:1px solid blue;
+   width:40px;
+   height:30px;
+   line-height:38px;
+   display:inline-block;   
+   border-radius:50%;
+   text-align:center;
+   margin:0 8px;
+   opacity:0.75;   
+   }
+   .footer .social a:hover{
+   opacity:0.9;
+   }
+   .footer ul{
+   margin-top:0;
+   paddin:0;
+   list-style:none;
+   font-size:18px;
+   line-hei:1.6;
+   margin-bottom:0;
+   text-align:center;
+   }
+   .footer ul li a{
+   color:inherit;
+   text-decoration:none;
+   opacity:0.8;
+   }
+   .footer ul li{
+   display:inline-block;
+   list-style:none;
+   padding:0 15px;   
+   }
+   .footer ul li a:hover{
+   opacity:1;
+   }
+   .footer .copyright{
+   margin-top:15px;
+   background-color:darkblue;
+   position:absolute;
+   width:100%;
+   bottom:-20px;
+   text-align:center;
+   font-size:13px;
+   color:white;
+   padding:20px;
+   }
+   .menu_bar{
+	   
+   background:blue;
+   float:right;
+   width:100%;
+   }
+   .logo{
+   padding-top:20px;
+   padding-left:20px;
+   }
+.active{
+background:none;
+display:inline-block;
+}
+.line{
+	position:absolute;
+	top:250px;
+	left:400px;
+	text-align:center;
+}
+
+
